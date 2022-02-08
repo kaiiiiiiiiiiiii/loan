@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+
+<div class="container">
+
+    <form action="/loan/limit" method="post">
+        <div class="form-group">
+            <label for="kcbscore">KCB평가점수</label>
+            <input type = "text" id="kcbscore" name="kcbScore" placeholder="KCB평가점수를 입력하세요">
+            <label for="loanbal">당행대출잔액</label>
+            <input type = "text" id="loanbal" name="lonBal" placeholder="당행대출잔액을 입력하세요">
+        </div>
+        <button type="submit">한도조회</button>
+    </form>
+</div>
+
+</body>
+</html>
